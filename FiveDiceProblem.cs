@@ -29,6 +29,8 @@ namespace CarInsuranceAndFiveDices
 
             int SumOfRolls = diceOne + diceTwo + diceThree + diceFour + diceFive;
             Console.WriteLine("Sum of the Rolls - {0}", SumOfRolls);
+
+            Console.ReadKey();
         }
     }
 }
